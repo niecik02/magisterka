@@ -1,0 +1,51 @@
+                       MML Referee Form
+
+-----------------------------
+
+Article MML Identifier:
+
+Paper Author(s): to be filled by the editor
+
+Paper Title:
+
+Referee: 
+
+-----------------------------
+
+Confidence:
+(A = very confident, B = quite confident, C = not very confident)
+
+----------------------------
+
+The decision:
+
+A. accept as is (editorial changes only, can be done by the editor)
+B. accept, requires changes by the author to be approved by the editor
+C. reject, substantial author's revisions needed before resubmission
+   for another review
+D. decision delayed, MML revision needed
+E. reject, no hope of getting anything of value
+
+---------------------------
+
+Presentation:
+(0 - very poor, 1 - poor, 2 - good, 3 - very good)
+
+The quality of formalization:  2
+(0 - very poor, 1 - poor, 2 - good, 3 - very good)
+
+Significance for MML: 1 
+(0 - very poor, 1 - poor, 2 - good, 3 - very good)
+
+-----------------------------
+
+Justification/comments (to be forwarded to the authors)
+
+-----------------------------
+
+Comments to editors only
+
+-----------------------------
+
+MML remarks
+

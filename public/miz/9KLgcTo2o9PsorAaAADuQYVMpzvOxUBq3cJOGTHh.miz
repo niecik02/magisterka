@@ -1,0 +1,67 @@
+environ
+vocabularies PROPOSIT;
+notations PROPOSIT;
+constructors PROPOSIT;
+
+begin
+
+
+(p implies q) iff (q implies p);
+::>                           *4,4
+
+
+not (p & q) iff (not p or not q);
+
+
+
+
+(p implies q) iff (not p or q);
+
+not not p iff p;
+
+
+
+(p or q) iff not (not p & not q);
+
+(p implies q) iff (not p or q);
+
+(p implies q) iff not (p & not q);
+
+(p iff q) iff ((p implies q) & (q implies p));
+
+(p iff q) iff (not (p & not q)) & (not (q & not p));
+
+
+p & (q or r) iff (p & q) or (p & r);
+(q or r) & p iff (p & q) or (p & r);
+
+p or (q & r) iff (p or q) & (p or r);
+
+(p & q) iff (q & p);
+(p or q) iff (q or p);
+
+p&(q & r) iff (p&q)&r;
+
+p or (q or r) iff (p or q) or r;
+
+
+
+
+
+ (p & q) implies (q or r);
+
+ (p or q) implies (q & p);
+::>                     *4,4
+
+
+
+
+:: ((p & q) implies q) & r;
+:: ::>                   *4
+
+
+
+p & (q or r) iff (p & q) or (p & r);
+
+:: (p implies q) iff (not p or not q);
+::> 4: This inference is not accepted

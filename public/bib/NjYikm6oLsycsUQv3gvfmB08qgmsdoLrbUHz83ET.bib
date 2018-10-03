@@ -1,0 +1,28 @@
+<div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h4 class="modal-title">Dodaj Autora</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-warning alert-dismissible fade in" role="alert" id="alert_autor" style="display: none">
+                        <strong>Uwaga!</strong>
+                        Sprawdź czy wybrałeś Autora!!
+                    </div>
+                    {!! Form:: open(['id'=>'dodawanie']) !!}
+                    {!! Form:: label('users_id','Wybierz Autora' )!!}
+                    {!! Form::select('users_id', $users ,null,['class'=>'form-control','placeholder'=>'wybierz']) !!}
+
+                </div>
+                <div class="modal-footer">
+                    {!!Form::submit('Zamknij',['class'=>'btn btn-default','data-dismiss'=>'modal', 'style'=>'float:left'])!!}
+                    {!!Form::submit('Dodaj',['class'=>'btn btn-primary', 'id'=>'dodaj_autora'])!!}
+                    {!! Form::close() !!}
+                </div>
+            </div>
+
+        </div>
+    </div>

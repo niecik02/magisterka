@@ -1,0 +1,51 @@
+.naglowek{
+    color: dimgray;
+    font-size: 20px;
+}
+.tekst{
+    color: black;
+    margin: 0px 20px 0px 20px;
+    font-size: 22px;
+    font-style:italic;
+}
+.pobierz{
+    font-size: 20px;
+    color: blue;
+}
+.pobierz:hover{
+    color:darkblue;
+}
+.glyphicon-download{
+    margin-right:5px;
+}
+.tabela{
+    margin: auto;
+
+}
+td{
+    padding: 10px;
+}
+
+.calosc{
+    background-color: #3c3c3c;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 9999;
+
+}
+.fa{
+    opacity: 1;
+    margin-left: 48%;
+    margin-top: 24%;
+}
+.nav>li>a{
+    color: black;
+}
+.active{
+    font-weight: bold;
+}
+
